@@ -36,7 +36,7 @@ from Examples.EchoClient import WhatsappEchoClient
 from Examples.ListenerClient import WhatsappListenerClient
 from Examples.ListenerClientEmail import WhatsappListenerClientEmail
 
-# Configura??o do yowsup para envio
+# Configuração do yowsup para envio
 password = ""                                           #Password dada ao registrar o numero pelo yowsup.
 password = base64.b64decode(bytes(password.encode('utf-8')))                        #Codificacao do Password para envio aos servidores do whatsApp.
 username = ''                                                          #Numero de telefone para o inicio de secao
